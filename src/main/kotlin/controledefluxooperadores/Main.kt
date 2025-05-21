@@ -6,6 +6,9 @@ fun main() {
     // !
     // &&
     // ||
+    // if (n in 1..50)  range
+    // <, >
+
 
     val a = false
     val b = false
@@ -19,7 +22,7 @@ fun main() {
     val value1 = 10
     val value2 = 15
 
-    if (10 > 15){
+    if (value1 > value2){
         println("greater")
     }else{
         println("lower")
